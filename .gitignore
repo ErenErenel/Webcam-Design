@@ -7,3 +7,22 @@ fp-info-cache
 *.kicad_prl
 *.kicad_sch-bak
 *-backups/
+_autosave-*
+
+# Firmware build outputs (Atmel Studio)
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.lss
+*.srec
+*.eep
+*.o
+*.d
+
+# Atmel Studio / IDE
+.vs/
+*.atsuo
+*.componentinfo.xml
